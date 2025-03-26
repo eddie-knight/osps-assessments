@@ -1,10 +1,12 @@
-# System Goals
+# Threat Modeling: Goals
 
-[:toc]
+**[Previous: Actions](./actions)**
 
 <!-- TODO: This section is titled "goals," but I don't understand why. It's about bad assumptions -->
 
 One of the most important things to do in threat modeling is to understand what an attacker can and cannot do based upon the access they have. In our concept of a “game” this is like the conditions by which the attacker gains points (by violating the goals you have for your system) and the legal moves that the attacker can make toward that end.
+
+## System Goals
 
 Assuming that you are being realistic in your attacker model, the stronger the set of moves the attacker can make, the more secure your system is. To understand why, let’s say that TrashPanda Bank made the assumption that all of its employees were trustworthy and did their job flawlessly. If it turns out that one of the employees is malicious or makes a mistake, then you are now outside the bounds of what you have considered in your assessment. It is as though a player of the game you set up made a move that you thought was not legal, when you did your analysis! This means you don’t have a way of understanding what the impact of an attack would be or whether your security will hold.
 
@@ -149,3 +151,5 @@ To aid in going through different cases, there is a model called STRIDE. STRIDE 
 > DFDs also enhance communication, clarifying system data handling and risks to stakeholders, aiding in prioritizing security measures. Clear, understandable DFDs are vital for all involved to identify key components and understand control paths.
 >
 > For instance, a DFD for TrashPanda Bank would map money flow, highlighting entry/exit points, customer involvement, asset storage, trust boundaries, and processes like bank teller and ledger operations. This facilitates comprehensive threat analysis, examining potential data interception/manipulation points, and assessing security measure effectiveness, ensuring robust protection against security threats.
+
+**[> Next Up: Attack Graphs](./attack-graphs-technique.md)**

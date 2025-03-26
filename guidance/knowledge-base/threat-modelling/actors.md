@@ -28,4 +28,4 @@ Note that this also may depend on the deployment environment.  Perhaps some depl
 
 One more note is that having different levels of compartmentalization between actors is common in a system.  Most systems have a trusted actor who is responsible for indicating who the other actors are in the system.  (This is often a party like a CA, root of trust, root key, or similar.)  As a result, this trusted actor can effectively issue false credentials and pretend to be any other party.  In contrast, the other actors in the system may have strong isolation between them, making the act of compromising them effectively independent attacks that must be carried out.  This degree to which the isolation between parties contains a compromise can be a critical aspect of the system’s security.
 
-**[> Next Up: Threat Modeling Actions](./actions.md)**
+**[> Next Up: Actions](./actions.md)**

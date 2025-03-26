@@ -1,5 +1,7 @@
 # Threat Modeling
 
+**[< Previous: Security Basics](./security-basics.md)**
+
 Security is one of the most critical properties to have in computing today.  Unfortunately, it is also one of the most misunderstood.  A common mistake people make it to tout something as “secure” or “insecure”.  This doesn’t make a lot of sense because it is missing an important context: the scenario.  
 
 The scenario in many non-security real world situations is something that is implicitly defined.  For example, if I say “my car is reliable'', you can assume that it almost certainly will not break down on the way to work.  However, you should not expect that a “reliable” car would make a good submarine or perform well on Mars.  Performing well on Mars is just not what is implied by a general statement of a car’s reliability.
@@ -18,3 +20,5 @@ This exercise not only broadens the scope of traditional threat modeling but als
 One way that we reason about security in a rigorous way is a process called threat modeling.  Threat modeling is sort of like setting up a game between the defender and the attacker.  The threat model describes the properties you are trying to provide and the capabilities of the attacker.  If the attacker is able to find a way to defeat the defender’s desired security properties, this is a viable avenue of attack.  We call such a successful attack, a compromise, and the weakness that lets an attack occur, a vulnerability.
 
 Note that the term bug and vulnerability are not the same thing.  While many bugs do enable an attacker to launch a successful attack, many bugs are just anomalous, benign behavior.   Similarly, a design flaw can cause a correctly implemented system to have a vulnerability.  So, there need not be a bug in order to have a vulnerability.
+
+**[Next Up: Threat Modeling Actors](./threat-modelling/actors.md)**

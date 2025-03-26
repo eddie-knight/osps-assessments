@@ -1,5 +1,7 @@
 # Security Basics
 
+**[< Previous: Getting Started](../getting-started.md)**
+
 There are so many foundational concepts and technologies you need to understand to reason about security of a cloud native application, that describing them well would require another entire book’s worth of material.  Rather than replicate that material here, the reader is directed to resources that contain this information.  If you encounter an unfamiliar term in the text, kindly take the time to look it up and understand it.
 
 Most fundamentally, you should understand key concepts like integrity, non-repudiation, privacy, authentication, authorization, and trust.  The Cloud Native Security Lexicon (available at tag-security/security-lexicon at main · cncf/tag-security (github.com)) has a quick overview of basic terms and concepts in computer security which covers these items.

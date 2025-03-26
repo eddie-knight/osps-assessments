@@ -1,6 +1,11 @@
 # Getting Started
 
-This guidance describes security assessments, including what a security assessment is, how it differs from a security audit, how to perform a security assessment, and how to use a completed assessment.  
+<!-- Devnotes: 
+  [!NOTE] is used for any first-person quotes that should be attributed.
+  [!IMPORTANT] or [!WARNING] is used for any text blocks that are supplemental to the content and do not need to be attributed.
+>
+
+This guidance describes security assessments, including what a security assessment is, how it differs from a security audit, how to perform a security assessment, and how to use a completed assessment.
 
 These contents are heavily informed by the Security Assessment process developed by the CNCF Security Technical Advisory Group and authored by Justin Cappos (STAG Technical Lead). This draws on years of compound experience analyzing and evaluating security products across a wide array of domains. The examples in this text draw from both non-technical anecdotes and a variety of detailed technical examples from Linux Foundation projects in the cloud native space.
 
@@ -31,5 +36,13 @@ You, the consumer of this hard work, need to understand how best to benefit from
 ### If you're still not ready to get started
 
 As with many things in security there is often not one “correct answer”, despite there being infinite wrong answers. If you would like to ask questions or help improve this guidance, please don't hesitate to engage through the designated [community channels](./CONTRIBUTING.md).
+
+## Knowlege Base Contents
+
+- [Security Basics](./knowledge-base/security-basics.md)
+- [Threat Modeling 101](./knowledge-base/threat-modelling-101.md)
+  - [Threat Modeling: Actors](./knowledge-base/threat-modelling/actors.md)
+  - [Threat Modeling: Actions](./knowledge-base/threat-modeling/actions.md)
+  - 
 
 **[> Next up: Security Basics](./knowledge-base/security-basics.md)**

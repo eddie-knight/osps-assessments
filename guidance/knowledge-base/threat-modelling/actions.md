@@ -10,9 +10,13 @@ An example action may look something like the following.
 
 ```
 Renting a safety deposit box:
+
 Requires a customer with a current account to make an in-person request at TrashPanda Bank to a teller.
+
 The teller processing the request first verifies the customer’s account exists, is linked to the customer (by checking their identification) and has a balance of at least $100.
+
 The teller then gives the terms and conditions form to the customer, who signs the request.  After this is confirmed by the teller, the customer pays the deposit fee to the teller.  The teller logs this transaction into their log book and inserts the payment as per the steps in “making a deposit”, except that the remittance goes to TrashPanda’s safety deposit box fund (listed in the teller’s handbook) instead of the user’s account
+
 The manager is then called by the teller, who re-checks the client’s identification and verifies the remittance to TrashPanda’s safety deposit box was processed by checking the logbook of the teller.  The manager now accesses the safety deposit usage map to find an unused safety deposit box, considering customer requests for a specific lucky number or an accessible box.  The manager then provides the customer a copy of the key for the box.  The teller and the manager use their keys to provide the customer access to the vault, where the safety deposit boxes are kept.  The manager and teller leave the vault to provide the customer privacy.  Once the customer is finished, they exit the vault and the manager locks the vault again.
 ```
 

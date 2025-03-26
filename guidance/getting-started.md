@@ -1,9 +1,9 @@
 # Getting Started
 
-<!-- Devnotes: 
+<!-- Devnotes:
   [!NOTE] is used for any first-person quotes that should be attributed.
   [!IMPORTANT] or [!WARNING] is used for any text blocks that are supplemental to the content and do not need to be attributed.
->
+-->
 
 This guidance describes security assessments, including what a security assessment is, how it differs from a security audit, how to perform a security assessment, and how to use a completed assessment.
 
@@ -40,9 +40,9 @@ As with many things in security there is often not one “correct answer”, des
 ## Knowlege Base Contents
 
 - [Security Basics](./knowledge-base/security-basics.md)
-- [Threat Modeling 101](./knowledge-base/threat-modelling-101.md)
-  - [Threat Modeling: Actors](./knowledge-base/threat-modelling/actors.md)
+- [Threat Modeling 101](./knowledge-base/threat-modeling-101.md)
+  - [Threat Modeling: Actors](./knowledge-base/threat-modeling/actors.md)
   - [Threat Modeling: Actions](./knowledge-base/threat-modeling/actions.md)
-  - 
+  - [Threat Modeling: Goals](./knowledge-base/threat-modeling/goals.md)
 
 **[> Next up: Security Basics](./knowledge-base/security-basics.md)**

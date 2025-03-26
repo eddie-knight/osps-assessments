@@ -8,7 +8,7 @@ For example, in TrashPanda Bank, customers may have a list of actions they perfo
 
 An example action may look something like the following.
 
-```
+```yaml
 Renting a safety deposit box:
 
 Requires a customer with a current account to make an in-person request at TrashPanda Bank to a teller.

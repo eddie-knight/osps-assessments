@@ -2,7 +2,7 @@
 
 **[< Previous: Security Basics](./security-basics.md)**
 
-Security is one of the most critical properties to have in computing today. Unfortunately, it is also one of the most misunderstood. A common mistake people make it to tout something as “secure” or “insecure”. This doesn’t make a lot of sense because it is missing an important context: the scenario. 
+Security is one of the most critical properties to have in computing today. Unfortunately, it is also one of the most misunderstood. A common mistake people make it to tout something as “secure” or “insecure”. This doesn’t make a lot of sense because it is missing an important context: the scenario.
 
 The scenario in many non-security real world situations is something that is implicitly defined. For example, if I say “my car is reliable'', you can assume that it almost certainly will not break down on the way to work. However, you should not expect that a “reliable” car would make a good submarine or perform well on Mars. Performing well on Mars is just not what is implied by a general statement of a car’s reliability.
 

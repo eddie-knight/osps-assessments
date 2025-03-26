@@ -8,8 +8,6 @@ These contents are heavily informed by the Security Assessment process developed
 
 It is recommended to follow the guide one step at a time, rather than seeking to read and understand the process in completeness. You will internalize more by attempting the exercises yourself.
 
-As with many things in security there is often not one “correct answer”, despite there being infinite wrong answers. If you would like to ask questions or help improve this guidance, please don't hesitate to engage through the designated [community channels](./CONTRIBUTING.md).
-
 ## Identifying Your Use Case
 
 How you engage with this guidance will depend on your use case:
@@ -29,3 +27,7 @@ To do so, you should read most of the book.  The sections describing how to use 
 ### You are evaluating the security posture of a project with a published security assessment
 
 You, the consumer of this hard work, need to understand how best to benefit from a security assessment. The section on consuming assessments is exactly what you need. It may also be useful to read the following section on Security Assessments and Audits, to understand the difference and why you should expect to see relatively few CVEs raised after a security assessment versus a security audit.
+
+## If you're still not ready to get started
+
+As with many things in security there is often not one “correct answer”, despite there being infinite wrong answers. If you would like to ask questions or help improve this guidance, please don't hesitate to engage through the designated [community channels](./CONTRIBUTING.md).

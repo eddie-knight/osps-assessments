@@ -38,12 +38,4 @@ You, the consumer of this hard work, need to understand how best to benefit from
 
 As with many things in security there is often not one “correct answer”, despite there being infinite wrong answers. If you would like to ask questions or help improve this guidance, please don't hesitate to engage through the designated [community channels](./CONTRIBUTING.md).
 
-## Knowlege Base Contents
-
-- [Security Basics](./knowledge-base/security-basics.md)
-- [Threat Modeling 101](./knowledge-base/threat-modeling-101.md)
-  - [Threat Modeling: Actors](./knowledge-base/threat-modeling/actors.md)
-  - [Threat Modeling: Actions](./knowledge-base/threat-modeling/actions.md)
-  - [Threat Modeling: Goals](./knowledge-base/threat-modeling/goals.md)
-
 **[> Next up: Security Basics](./knowledge-base/security-basics.md)**

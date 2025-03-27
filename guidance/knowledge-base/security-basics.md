@@ -23,7 +23,7 @@ There is an additional set of things to understand around user identity, authent
 
 The last important concept to understand is the fundamental ways in which people design secure systems. Usually, you can find security design flaws by looking for situations that violate these principles and then reasoning about what problem occurs as a result. So understanding concepts like the principle of simplicity, least privilege, fail-safe defaults, least common mechanism, minimizing secrets, open design, complete mediation, and least astonishment [Saltzer and Schroeder, The Protection of Information in Computer Systems] are really fundamental and things every person thinking about security should internalize.
 
-> [!NOTE]
+> [!IMPORTANT]
 > **When 'Simpler' Does Not Mean ‘More Secure’**
 >
 > These principles are not fundamental “laws” of computer security which should never be violated. They are guidelines that often lead to security problems when the are violated.

@@ -21,4 +21,4 @@ One way that we reason about security in a rigorous way is a process called thre
 
 Note that the term bug and vulnerability are not the same thing. While many bugs do enable an attacker to launch a successful attack, many bugs are just anomalous, benign behavior.  Similarly, a design flaw can cause a correctly implemented system to have a vulnerability. So, there need not be a bug in order to have a vulnerability.
 
-**[Next Up: Threat Modeling Actors](./threat-modelling/actors.md)**
+**[> Next Up: Threat Modeling Actors](./threat-modelling/actors.md)**

@@ -1,6 +1,6 @@
 # DREAD Technique
 
-**[Previous: Attack Graphs Technique](./attack-graphs-technique.md)**
+**[< Previous: Attack Graphs Technique](./attack-graphs-technique.md)**
 
 The properties of an attack will vary based on the avenue of the attack. Some actions an attacker can only perform once before detection, while others an attacker can do repeatedly. Some require specialized skills, while others can be done by anyone.
 

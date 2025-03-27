@@ -1,6 +1,6 @@
 # Understanding Risk
 
-**[Previous: DREAD Technique](./dread-technique.md)**
+**[< Previous: DREAD Technique](./dread-technique.md)**
 
 A very useful concept when thinking about security assessments is the concept of risk. Rather than simply categorize things as possible and impossible, risk lets us try to understand how likely they are. If you have two equally negative outcomes which could be addressed with the same amount of effort, the more likely one is the one to focus on first.
 
@@ -20,12 +20,12 @@ So if one understands the likelihood of things happening, how does that help if 
 Expected damage ~= likelihood * impact
 ```
 
-For example, if something has a 1-in-100 chance of occurring on a specific day, and costs you $1000 when it occurs, you expect that the amount you’ll have to pay over a long period is about $10 per day.  
+For example, if something has a 1-in-100 chance of occurring on a specific day, and costs you $1000 when it occurs, you expect that the amount you’ll have to pay over a long period is about $10 per day.
 
 When addressing risks, you can look at how much your protection would cost (in terms of effort, money, etc.) and how this changes the expected damage.  This would be an ideal way to prioritize how to work on things.  So why don’t we do this?  Because the actual values for likelihood and impact aren’t really known in practice. So understanding “that things that are likely and high impact are really bad and need to be addressed” is going to be more useful in practice than the actual formula will be.
 
 > [!NOTE]
-> The Value of Precedence, Commentary by Andrew Martin:  
+> The Value of Precedence, Commentary by Andrew Martin:
 >
 > We have found it helpful to list the remediations and controls from a threat model in precedence order. The recipient of a threat model is likely to be a risk owner such as a CISO or equivalent holder of funds, and the model should inspire them to remediate immediate existential threats, or threats with unacceptable impacts on business functionality, and consider which of the other scoped threats are worth investing in.
 >

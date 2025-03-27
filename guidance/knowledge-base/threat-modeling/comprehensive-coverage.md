@@ -1,6 +1,6 @@
 # Comprehensive Coverage
 
-**[Previous: Understanding Risk](./understanding-risk.md)**
+**[< Previous: Understanding Risk](./understanding-risk.md)**
 
 One common problem is that it is easy to miss one or more cases when doing threat modeling. With distributed systems that have many components, this problem becomes much more common. The reason is that there are many different combinations of components that could be compromised by an attacker and used collectively to do nefarious things.
 
@@ -45,13 +45,12 @@ These space saving tips do not fully solve the problem though. Consider that the
 
 For more information about threat matrices, here are some references for further reading:
 
-- G. Almashaqbeh, A. Bishop and J. Cappos, "ABC: A Cryptocurrency-Focused Threat Modeling Framework," IEEE INFOCOM 2019 - IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS), 2019, pp. 859-864, doi: 10.1109/INFCOMW.2019.8845101.
+- G. Almashaqbeh, A. Bishop and J. Cappos, "ABC: A Cryptocurrency-Focused Threat Modeling Framework," IEEE INFOCOM 2019 - IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS), 2019, pp. 859-864, doi: 10.1109/INFCOMW.2019.8845101. [(Link)](https://arxiv.org/abs/1903.03422)
 - Matt Tatam, Bharanidharan Shanmugam, Sami Azam, Krishnan Kannoorpatti, "A review of threat modelling approaches for APT-style attacks", Heliyon, Volume 7, Issue 1, 2021, ISSN 2405-8440,
-https://doi.org/10.1016/j.heliyon.2021.e05969.(https://www.sciencedirect.com/science/article/pii/S2405844021000748)
+[(Link)](https://www.sciencedirect.com/science/article/pii/S2405844021000748)
 - Rajesh Gupta, Sudeep Tanwar, Sudhanshu Tyagi, Neeraj Kumar, "Machine Learning Models for Secure Data Analytics: A taxonomy and threat model", Computer Communications,
 Volume 153, 2020, Pages 406-440, ISSN 0140-3664,
-https://doi.org/10.1016/j.comcom.2020.02.008.
-(https://www.sciencedirect.com/science/article/pii/S0140366419318493)
-- Zhang, L., Taal, A., Cushing, R. et al. "A risk-level assessment system based on the STRIDE/DREAD model for digital data marketplaces." Int. J. Inf. Secur. 21, 509–525 (2022). https://doi.org/10.1007/s10207-021-00566-3 
+[(Link)](https://www.sciencedirect.com/science/article/pii/S0140366419318493)
+- Zhang, L., Taal, A., Cushing, R. et al. "A risk-level assessment system based on the STRIDE/DREAD model for digital data marketplaces." Int. J. Inf. Secur. 21, 509–525 (2022). [(Link)](https://doi.org/10.1007/s10207-021-00566-3)
 
 **[> Next Up: Detection & Tracing](../response/detection-and-tracing.md)**

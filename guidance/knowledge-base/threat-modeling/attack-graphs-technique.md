@@ -12,36 +12,36 @@ For example, the attack tree below has “Open Safe” as the root node, so this
 
 ```mermaid
 graph TD;
-    A[Open Safe] --> B[Pick Lock]
-    B --> C[Get Physical access]
-    B --> D[Pick the lock]
-    A --> E[Learn Combo]
-    E --> F[Find written combo]
-    E --> G[Get Combo from Target]
-    G --> H[Threaten]
-    G --> I[Blackmail]
-    G --> J[Eavesdrop]
-    J --> K[Get target to state combo]
-    J --> L[Listen to conversation]
-    G --> M[Bribe]
-    A --> N[Cut Open Safe]
-    N --> O[Get Physical access]
-    N --> P[Cut Open the lock]
-    A --> Q[Install improperly]
+  A[Open Safe] --> B[Pick Lock]
+  B --> C[Get Physical access]
+  B --> D[Pick the lock]
+  A --> E[Learn Combo]
+  E --> F[Find written combo]
+  E --> G[Get Combo from Target]
+  G --> H[Threaten]
+  G --> I[Blackmail]
+  G --> J[Eavesdrop]
+  J --> K[Get target to state combo]
+  J --> L[Listen to conversation]
+  G --> M[Bribe]
+  A --> N[Cut Open Safe]
+  N --> O[Get Physical access]
+  N --> P[Cut Open the lock]
+  A --> Q[Install improperly]
 ```
 
-In the next stage, we can see that the goal of learning the combination can be achieved in two ways - finding the written combination and getting the combination from the target (who is an authorized individual possessing the combination to the safe) which can further be done in 4 ways. These represent the OR nodes. Success in any one of these attacks leads to success of the ultimate goal of opening the lock. One attack to retrieve the combination from the target includes eavesdropping, which needs the success of two attacks where the victim states the combination and the attacker listening to the conversation. Failure of either results in an unsuccessful attempt to break the lock open. 
+In the next stage, we can see that the goal of learning the combination can be achieved in two ways - finding the written combination and getting the combination from the target (who is an authorized individual possessing the combination to the safe) which can further be done in 4 ways. These represent the OR nodes. Success in any one of these attacks leads to success of the ultimate goal of opening the lock. One attack to retrieve the combination from the target includes eavesdropping, which needs the success of two attacks where the victim states the combination and the attacker listening to the conversation. Failure of either results in an unsuccessful attempt to break the lock open.
 
 > [!NOTE]
 > **Unraveling Attack Graphs, Commentary by Justin Cappos**
 >
-> Attack graphs were really helpful for me when I was first starting to threat model large systems and also are really helpful now when I don’t understand a system well.  Today, I often can intuitively go through and enumerate the cases here because I’ve had enough practice.  So, I rarely write out an attack graph.  (I usually jump straight to attack matrices, which will be described later.)  
+> Attack graphs were really helpful for me when I was first starting to threat model large systems and also are really helpful now when I don’t understand a system well. Today, I often can intuitively go through and enumerate the cases here because I’ve had enough practice. So, I rarely write out an attack graph. (I usually jump straight to attack matrices, which will be described later.)
 >
-> You can think of the exercise of writing out an attack graph like writing out your multiplication tables by hand before you have them memorized.  Eventually it may become second nature, but it will be an immense help at first.  If you’re starting out, I strongly encourage you to start with attack trees though and get practice with them.  This will help you build the foundation you need to do more accurate threat assessments.
+> You can think of the exercise of writing out an attack graph like writing out your multiplication tables by hand before you have them memorized. Eventually it may become second nature, but it will be an immense help at first. If you’re starting out, I strongly encourage you to start with attack trees though and get practice with them. This will help you build the foundation you need to do more accurate threat assessments.
 
-One problem with attack graphs is you don’t necessarily know how complete they are.  There are a wide array of things that you haven’t thought of.  Be sure to think back to your system goals carefully and focus on them.  When you reason about the situations where those goals hold, think about what those situations mean for an attacker.  How is the attacker constrained?  What can the attacker do?  You may need to update the goals and other parts of the writeup as you go through this process.
+One problem with attack graphs is you don’t necessarily know how complete they are. There are a wide array of things that you haven’t thought of. Be sure to think back to your system goals carefully and focus on them. When you reason about the situations where those goals hold, think about what those situations mean for an attacker. How is the attacker constrained? What can the attacker do? You may need to update the goals and other parts of the writeup as you go through this process.
 
-There is a depth of material on attack trees that focuses on adding parameters of different types to them.  They can do things like help you reason about what attackers with different skill sets / access / constraints might do in a system or how much an attack might cost an attacker.  As you are working through examples, you may find it useful to refer to the following reference: Schneier, B. “Attack Trees.” Schneier on Security, Dr. Dobb's Journal, December 1999, https://www.schneier.com/academic/archives/1999/12/attack_trees.html. 
+There is a depth of material on attack trees that focuses on adding parameters of different types to them. They can do things like help you reason about what attackers with different skill sets / access / constraints might do in a system or how much an attack might cost an attacker. As you are working through examples, you may find it useful to refer to the following reference: Schneier, B. “Attack Trees.” Schneier on Security, Dr. Dobb's Journal, December 1999, https://www.schneier.com/academic/archives/1999/12/attack_trees.html.
 
 > [!NOTE]
 > Finding Business Value, Commentary from Jack Kelly

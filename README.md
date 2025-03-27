@@ -12,7 +12,7 @@ Visit [the Getting Sarted guide](./getting-started.md) to determine your first s
 
 Continue reading below for a rapid overview of each assessment type.
 
-### Self Assessment
+### Self-Assessment
 
 _TODO: add a description here_
 

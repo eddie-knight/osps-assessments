@@ -24,4 +24,4 @@ Note that increased complexity of actions does tend to correlate with insecurity
 
 Please don’t mistake this for saying that fewer API calls or system calls means better security. If that were true, we could just have one API call that takes an argument telling it what action to actually perform! This would be a case where the complexity of the API isn’t well reflected by the number of API calls.
 
-**[Next Up: Goals](./goals)**
+**[> Next Up: Goals](./goals)**

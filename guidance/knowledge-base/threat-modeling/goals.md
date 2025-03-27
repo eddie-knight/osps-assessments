@@ -1,6 +1,6 @@
 # Threat Modeling: Goals
 
-**[Previous: Actions](./actions)**
+**[< Previous: Actions](./actions)**
 
 <!-- TODO: This section is titled "goals," but I don't understand why. It's about bad assumptions -->
 

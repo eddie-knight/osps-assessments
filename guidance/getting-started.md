@@ -3,6 +3,7 @@
 <!-- Devnotes:
   [!NOTE] is used for any first-person quotes that should be attributed.
   [!IMPORTANT] or [!WARNING] is used for any text blocks that are supplemental to the content and do not need to be attributed.
+  ``` code block is used for formulas or other content that should be clearly demarcated
 -->
 
 This guidance describes security assessments, including what a security assessment is, how it differs from a security audit, how to perform a security assessment, and how to use a completed assessment.
@@ -25,7 +26,7 @@ Many are helpful to learn about threat modeling and how to assess the security o
 
 ### You want to lead or participate in an assessment
 
-You should read as much of the content as possible. This includes the self assessment content if the project you're assessing is supplying a completed self assessment to kickstart your review.
+You should read as much of the content as possible. This includes the self-assessment content if the project you're assessing is supplying a completed self-assessment to kickstart your review.
 
 The sections describing how to use an assessment and how to have your project assessed effectively may be less applicable to you, but will help you understand the process and expectations from those perspectives.
 

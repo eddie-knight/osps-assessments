@@ -14,7 +14,7 @@ Recovery is a very important property to have. However, in general, it isn’t p
 
 ## Prevention
 
-Another means to deal with an attack is simply to prevent it from being effective. The previous sentence, using the word “simply” is a bit misleading because this is often one of the most difficult things to do. Well designed systems have this property for most types of attacks. 
+Another means to deal with an attack is simply to prevent it from being effective. The previous sentence, using the word “simply” is a bit misleading because this is often one of the most difficult things to do. Well designed systems have this property for most types of attacks.
 
 Note that you need to carefully be able to argue why you protect against a set of attacks. This includes in what scenarios an attacker is prevented from doing an action. Once again, being rigorous and clear about limitations are absolutely key.
 
@@ -41,4 +41,3 @@ So, while it is not always true, in general:
 ```text
 Prevention > Recovery > Detection w/ Forensic Traceability > Detection > Forensic Traceability
 ```
-

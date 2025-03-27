@@ -8,7 +8,7 @@ hile you can just sit and do this in whatever way you want, it is often useful t
 
 An attack tree has at the top (which is called the root node), the goal of the attacker.
 
-For example, the attack tree below has “Open Safe” as the root node, so this is the attacker’s goal. The nodes in the tree (i.e., the square boxes) are connected by one or more edges (the lines between boxes). For two nodes that have an edge, the higher node is called the parent and the lower node is the child. The child node or nodes are more details about how to achieve the parent node.
+For example, the attack tree below has “Open Safe” as the root node, so this is the attacker’s goal. The nodes in the tree (i.e., the square boxes) are connected by one or more edges (the lines between boxes). For two nodes that have an edge, the higher node is called the parent and the lower node is the child. The child node or nodes contain additional details about how to achieve the parent node.
 
 ```mermaid
 graph TD;
@@ -50,4 +50,4 @@ There is a depth of material on attack trees that focuses on adding parameters o
 
 Attack Graphs can be intensive to build out and maintain, so it is recommended to use a solution that can generate Attack Graphs from code.
 
-**[> Next Up: Not All Attacks are the Same](./not-all-attacks.md)**
+**[> Next Up: DREAD Technique](./dread-technique.md)**

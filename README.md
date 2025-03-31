@@ -12,17 +12,17 @@ Visit [the Getting Sarted guide](./guidance/getting-started.md) to determine you
 
 Continue reading below for a rapid overview of each assessment type.
 
-### Self-Assessment
+### Level 1: Self-Assessment
 
-_TODO: add a description here_
+A self-assessment allows a software project to evaluate its own security posture using a standardized process. This helps identify strengths, areas for improvement, and potential risks without external influence. The results can serve as a foundation for internal discussions, decision-making, and future external reviews.
 
-### Joint Assessment
+### Level 2: Joint Assessment
 
-_TODO: add a description here_
+A joint-assessment is a collaborative security review conducted with external security experts or a designated working group. This approach provides an opportunity for project teams to receive constructive feedback, validate security practices, and gain insights from experienced reviewers. The process often includes structured discussions, evidence-based evaluations, and actionable recommendations for strengthening security practices.
 
-### Third-Party Assessment
+### Level 3: Third-Party Conformity Assessment
 
-_TODO: add a description here_
+A third-party conformity assessment involves an independent security audit conducted by external assessors to evaluate a project’s adherence to established security guidelines. This assessment provides an objective validation of security controls, policies, and implementations, ensuring alignment with industry frameworks and regulatory requirements. The process typically includes in-depth reviews, testing, and verification of security measures, culminating in a formal report or certification.
 
 ## Antitrust Policy Notice
 

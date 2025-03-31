@@ -1,59 +1,48 @@
 # Metadata Content
 
-The first required entry to your self-assessment will be the metadata values, quick-view information about your project:
+**[< Previous: Header Content](./header.md)**
 
-- Software — A link to the software’s repository.
-- Security provider — `Yes` or `No`? Is the primary function of the project to support the security of an integrating system?
-  - Example: Your project is an authentication provider.
-- Languages — Languages the project is written in.
-- Software Bill of Materials (SBOM) — Link to the libraries, packages, and the versions of each that are used by the project.
-  - Where practical, it is recommended to provide this in SPDX or CycloneDX format. If attached to a release, provide an example path, using `{version}` to indicate that a version should be supplied to get a specific SBOM.
-- Security links — List of links to existing security documentation for the project.
+The first full entry in your self-assessment will be the metadata values—key quick-view information about your project. These metadata fields provide essential context for stakeholders reviewing your security posture and project status.
 
-As usual, formatting is less important than clear communication with your stakeholders. Below is an example showing how you can organize your metadata via subheadings.
+## Fields
 
-```md
-## Metadata
+As seen in the template, the following fields are recommended.
 
-### Software
-- https://privateerproj/privateer
-- https://privateerproj/privateer-sdk
-- https://privateerproj/privateer-raid-wireframe
+### Assessment Stage
 
-### Security Provider?
+Indicate the current status of your self-assessment. This helps stakeholders understand how up-to-date the information is.
 
-No. Privateer is designed to facilitate security or compliance validation, but it should not be considered a security provider.
+- **Incomplete:** The assessment is still in progress.
+- **Complete:** The assessment is finalized and reflects the project's current state.
+- **Obsolete:** The assessment is outdated and no longer maintained.
 
-### Languages
+### Software Repository
 
-Go
+Provide a direct link to the project's repository. This should point to the primary source code repository (e.g., GitHub, GitLab, or another hosting platform).
 
-### Software Bill of Materials
+### Security Provider
 
-Known Weakness. Automated generation of each repo's SBOM is not yet complete, and should be added to the roadmap.
+Specify whether the project’s primary function is security-related.
 
-### Security Links
+- **Yes:** The project is designed to enhance security in an integrating system.
+- **No:** The project is not primarily focused on security but may include security-related components.
 
-Known Weakness. Creation of a security-insights.yml should be added to the roadmap.
-```
+### Programming Languages
 
-Alternate: Some projects choose to present this in a table to occupy less space at the top of the page.
+List the programming languages used in the project. This information helps security reviewers assess potential language-specific risks and dependencies.
 
-The downside to this is that longer or multi-line entries will push the limits of markdown, as seen with `<br>` HTML added to the Software row in the following table. This could complicate maintainability, though likely only in a small way.
+### Software Bill of Materials (SBOM)
 
-```md
-## Metadata
+Include a link to the project's SBOM, which details the libraries, packages, versions, and dependencies used. This improves supply chain security and helps identify vulnerabilities in third-party components.
 
-| | |
-|-----------|------|
-| Software | https://privateerproj/privateer<‌br‌>https://privateerproj/privateer-sdk<‌br‌>https://privateerproj/privateer-raid-wireframe |
-| Security Provider? | No. Privateer is designed to facilitate security or compliance validation, but it should not be considered a security provider. |
-| Languages | Go |
-| Software Bill of Materials | Known Weakness. Automated generation of each repo's SBOM is not yet complete, and should be added to the roadmap. |
-| Security Links | Known Weakness. Creation of a security-insights.yml should be added to the roadmap. |
-```
+### Compliance Certifications
 
-> [!IMPORTANT]
-> Remember, we are only using Markdown as an example format. You can craft these headers and other elements using whatever tools you like. The content outlined here _is_ recommended, though.
+List any security standards or compliance frameworks the project adheres to (e.g., PCI-DSS, COBIT, ISO, GDPR). If applicable, provide links to compliance documentation or attestations.
+
+### Security Documentation
+
+Provide links to the project's security-related documentation. At a minimum, include a link to security-insights.yaml or any other security policies, threat models, or vulnerability management resources.
+
+As usual, formatting is less important than clear communication with your stakeholders. If this is better broken into a table or sub-sections, feel free to make that decision for your use case.
 
 **[> Next Up: Overview](./overview.md)**

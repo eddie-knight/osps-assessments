@@ -33,7 +33,9 @@ List the programming languages used in the project. This information helps secur
 
 ### Software Bill of Materials (SBOM)
 
-Include a link to the project's SBOM, which details the libraries, packages, versions, and dependencies used. This improves supply chain security and helps identify vulnerabilities in third-party components.
+Include a link to the project's SBOM, which details the versions and relationships of components used in the software, including libraries, packages, and dependencies used. This improves supply chain security and helps identify vulnerabilities in third-party components.
+
+This link may be templatized, such as `your/releases/{version}.sbom`.
 
 ### Compliance Certifications
 

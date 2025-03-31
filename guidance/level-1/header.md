@@ -4,25 +4,20 @@
 
 Let's kick things off by putting in some basic information about the project and the assessment itself.
 
-> [!IMPORTANT]
-> Remember, we are only using Markdown as an example format. You can craft these headers and other elements using whatever tools you like. The content outlined here _is_ recommended, though.
-
-## Header
+## Header & Opening
 
 Let's open up the document with some very basic details.
 
-### Introdcution
+The document title should be your project’s name followed by “Self-Assessment”
 
-Your document title will simply be your project’s name followed by “Self-Assessment”.
+Directly beneath the title, include plaintext information specifying who conducted this assessment and identifying the project maintainers. The provided template includes helper text with blanks you can fill in to streamline this step.
 
-Use plaintext below the title to specify who did this assessment and who the project maintainers are. In the template document we provide helper text with blanks that you can fill in to get started.
+## Table of Contents
 
-### Table of Contents
+If you're using a word processor like Google Docs or Microsoft Word, take advantage of their automatic table of contents generation.
 
-If you’re using something like Google Docs or Microsoft Word, you can auto-generate a table of contents.
+For Markdown-based documentation, you can create self-referencing links within the document—these will become functional once the relevant sections exist.
 
-In Markdown, we can add self-referencing links to our document — these will be functional once we actually create the associated entries.
-
-We may also need to come back and modify this after we’ve added our content. If you decide to create subsections for a complex topic, be sure to add those to the table of contents here. GenAI may help here if your document has significantly extended the template.
+Expect to revisit and update the table of contents after adding content. If you introduce new subsections for complex topics, be sure to reflect those changes here. If your document significantly expands upon the template, AI tools may assist in generating or updating the table of contents efficiently.
 
 **[> Next Up: Metadata](./metadata.md)**

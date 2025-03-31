@@ -6,6 +6,8 @@ Before we dive in to the contents of the assessment, let's consider how and wher
 
 Determining what should be covered in your self-assessment may be straightforward, or it may feel daunting at first.
 
+Most projects will only need a single assessment document that is maintained over time as the design changes or new information is gathered.
+
 It is possible that your project will be best served by multiple self-assessments if it contains multiple disconnected parts. We will use the following two projects as examples of this: [Argo](https://github.com/argoproj) and [Privateer](https://github.com/privateerproj).
 
 Argoproj is made up of multiple independent but complementary elements: Argo CD, Argo Workflows, Argo Rollouts, Argo Events (and more smaller pieces). Because each of these can be used independently of the others, it is best (and easiest) to assess them one at a time.

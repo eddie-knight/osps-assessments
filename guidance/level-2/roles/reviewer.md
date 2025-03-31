@@ -5,14 +5,14 @@
 The lead reviewer serves as the primary security liaison,
 often coordinating responses between the project and reviewers, ensuring
 communications are performed in a timely fashion as described in the
-[guide](./). The lead reviewer is also responsible for coordinating
+[guide](./).  The lead reviewer is also responsible for coordinating
 and recruiting additional reviewers as appropriate, and managing the
 documentation updates (joint assessment and final summary) to the project's
 assessment folder.
 
 The lead reviewer is further tasked with performing the clarifying
-questions phase of the joint assessment. The lead reviewer may identify
-another reviewer to perform this task on their behalf; serving as their
+questions phase of the joint assessment.  The lead reviewer may identify
+another reviewer to perform this task  on their behalf; serving as their
 delegate or designee for that task.
 
 ## Reviewers
@@ -34,7 +34,7 @@ the security of the project.
 
 A reviewer may be delegated to perform specific tasks by the lead security
 reviewer in order to ensure the appropriate experience is leveraged in conducting
-the activity. This may include but is not limited to the clarifying
+the activity.  This may include but is not limited to the clarifying
 questions phase.
 
 Reviewers are encouraged to reach out to community members to resolve
@@ -56,7 +56,7 @@ notified the project of an issue as it may impact the content of the joint
 assessment or the timeframe for completing the assessment.
 
 Engaging in a hands-on assessment is not an authorization to attack an operational
-system. All hands-on testing must be performed locally/within the control
+system.  All hands-on testing must be performed locally/within the control
 of the reviewer and with authorization.
 
 ## Qualifications
@@ -64,9 +64,9 @@ of the reviewer and with authorization.
 ### Required
 
 Unless approved by TAG-Security chairs, the lead reviewer will have previously
-performed a CNCF security review. Exemptions to this are reviewed case by
+performed a CNCF security review.  Exemptions to this are reviewed case by
 case upon established need by the CNCF TAG-Security chairs in order to bootstrap
-the process as appropriate. If a lead reviewer has not previously performed a
+the process as appropriate.  If a lead reviewer has not previously performed a
 security review, and the chairs concur with them fulfilling the role, it is
 encouraged that at least 1 additional reviewer have experience and be leveraged
 as the delegate or designee by the lead.
@@ -74,7 +74,7 @@ as the delegate or designee by the lead.
 ### Preferred
 
 It is preferred that reviewers have previous experience performing formal or informal
-software or security audits or assessments for a variety of organizations. An
+software or security audits or assessments for a variety of organizations.  An
 ideal reviewer should also have been the recipient of a TAG-Security Security
 Assessment for a software project they manage.
 
@@ -91,14 +91,14 @@ The level of effort for the reviewers is expected to be 10 hours per assessment.
 Correspondence, project availability, and clarification of a project's scope
 or other details in the ticketed request for a project's joint assessment may
 require additional time. However, analysis is expected to be concluded in a
-few weeks -- usually 3 weeks. Effort is expected to include and may not be
+few weeks -- usually 3 weeks.  Effort is expected to include and may not be
 limited to:
 
-* reviewing existing security documentation
-* reviewing ticketed request for project assessment
-* analysis of security assertions and assumptions
-* attending project presentation with Q&A
-* discussion via Slack or additional live Q&A sessions
+- reviewing existing security documentation
+- reviewing ticketed request for project assessment
+- analysis of security assertions and assumptions
+- attending project presentation with Q&A
+- discussion via Slack or additional live Q&A sessions
 
 ## Expectations
 
@@ -114,45 +114,45 @@ security reviewer and the project being assessed due to the closely-knit nature
 of the community. Having clear guidelines for conflict of interest situations
 are important to prevent:
 
-* Individuals from intentionally or unintentionally promoting their own
+- Individuals from intentionally or unintentionally promoting their own
 company's project
-* TAG-Security chairs and review leads intentionally or
+- TAG-Security chairs and review leads intentionally or
 unintentionally limiting the participation of an individual unfairly by
 asserting conflict of interest
-* Security reviews being stalled while groups belabor on who should be allowed
+- Security reviews being stalled while groups belabor on who should be allowed
 to participate
 
 The conflicts of interest lie on a spectrum, and are classified into hard and
 soft conflicts:
 
-* A hard conflict makes a reviewer ineligible to assess a project.
-* A soft conflict allows a reviewer to assess a project, but not as a
+- A hard conflict makes a reviewer ineligible to assess a project.
+- A soft conflict allows a reviewer to assess a project, but not as a
 [project lead](./project-lead.md).
-* It is not unusual for reviewers to have soft conflicts. The diversity of
+- It is not unusual for reviewers to have soft conflicts. The diversity of
 reviewers that are familiar with a project can provide a deeper insight
 together with a fresh set of eyes and is beneficial to the success of a
 TAG-Security Security Assessment.
 
 All reviewers must provide a conflict declaration on the tracking issue to
 indicate which hard or soft conflicts do, or do not exist when they volunteer
-to be a reviewer. This is done by placing a comment on the issue associated
+to be a reviewer.  This is done by placing a comment on the issue associated
 with the joint assessment using the table provided below.
 
 ### Conflict of interest statement template
 
 | Hard Conflicts | Y/N |
 | :------------- | :-: |
-| Reviewer is a currently a maintainer of the project | |
-| Reviewer is direct report of/to a current maintainer of the project | |
-| Reviewer is paid to work on the project | |
-| Reviewer has significant financial interest directly ties to the success of the project | |
+| Reviewer is a currently a maintainer of the project |  |
+| Reviewer is direct report of/to a current maintainer of the project |  |
+| Reviewer is paid to work on the project |  |
+| Reviewer has significant financial interest directly ties to the success of the project |  |
 
 | Soft Conflicts | Y/N |
 | :------------- | :-: |
-| Reviewer belongs to the same company/organization of the project, but does not work on the project | |
-| Reviewer uses the project in their work | |
-| Reviewer has contributed to the project | |
-| Reviewer has a personal stake in the project (personal relationships, etc.) | |
+| Reviewer belongs to the same company/organization of the project, but does not work on the project |  |
+| Reviewer uses the project in their work |  |
+| Reviewer has contributed to the project |  |
+| Reviewer has a personal stake in the project (personal relationships, etc.) |  |
 
 ### Managing conflicts
 
@@ -166,15 +166,15 @@ and/or chairs.
 The lead security reviewer has the responsibility of ensuring a balanced assessment,
 and as part of that before kicking off the assessment must:
 
-* Check that all reviewers have conflict-of-interest declarations,
-* Provide their own declaration of any potential conflict-of-interest
+- Check that all reviewers have conflict-of-interest declarations,
+- Provide their own declaration of any potential conflict-of-interest
 (or lack thereof),
-* Ask clarifying questions, if needed
-* Assert that:
- 1. They have reviewed all conflict-of-interest declarations from the reviewers;
- 2. There are no hard-conflicts present without a waiver;
- 3. They believe that the review team is able to provide a balanced and fair
- assessment
+- Ask clarifying questions, if needed
+- Assert that:
+  1. They have reviewed all conflict-of-interest declarations from the reviewers;
+  2. There are no hard-conflicts present without a waiver;
+  3. They believe that the review team is able to provide a balanced and fair
+  assessment
 
 Update the above assertion if a new conflict-of-interest becomes known during
 the course of the assessment.
@@ -190,5 +190,5 @@ In most cases, the existence of a hard conflict will prevent a TAG member from
 participating in the assessment for which their hard conflict exists. Depending
  on the circumstances of the particular conflict, the joint assessment, and the project,
  two chairs and the Security Assessment Facilitator may determine if the hard conflict
-may be waived. Should this occur, the decision's justification will be documented
+may be waived.  Should this occur, the decision's justification will be documented
  to ensure it clearly depicts the circumstances for granting the waiver.

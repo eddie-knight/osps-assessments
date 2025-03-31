@@ -3,7 +3,7 @@
 The first required entry to your self-assessment will be the metadata values, quick-view information about your project:
 
 - Software — A link to the software’s repository.
-- Security provider — `Yes` or `No`? Is the primary function of the project to support the security of an integrating system? 
+- Security provider — `Yes` or `No`? Is the primary function of the project to support the security of an integrating system?
   - Example: Your project is an authentication provider.
 - Languages — Languages the project is written in.
 - Software Bill of Materials (SBOM) — Link to the libraries, packages, and the versions of each that are used by the project.

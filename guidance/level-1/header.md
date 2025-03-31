@@ -44,20 +44,20 @@ We may also need to come back and modify this after we’ve added our content. I
 ```md
 ## Table of Contents
 
-* [Metadata](#metadata)
-  * [Security links](#security-links)
-* [Overview](#overview)
-  * [Actors](#actors)
-  * [Actions](#actions)
-  * [Background](#background)
-  * [Goals](#goals)
-  * [Non-goals](#non-goals)
-* [Self-assessment use](#self-assessment-use)
-* [Security functions and features](#security-functions-and-features)
-* [Project compliance](#project-compliance)
-* [Secure development practices](#secure-development-practices)
-* [Security issue resolution](#security-issue-resolution)
-* [Appendix](#appendix)
+- [Metadata](#metadata)
+  - [Security links](#security-links)
+- [Overview](#overview)
+  - [Actors](#actors)
+  - [Actions](#actions)
+  - [Background](#background)
+  - [Goals](#goals)
+  - [Non-goals](#non-goals)
+- [Self-assessment use](#self-assessment-use)
+- [Security functions and features](#security-functions-and-features)
+- [Project compliance](#project-compliance)
+- [Secure development practices](#secure-development-practices)
+- [Security issue resolution](#security-issue-resolution)
+- [Appendix](#appendix)
 ```
 
 ## Self-Assessment Use

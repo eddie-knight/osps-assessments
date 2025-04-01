@@ -6,7 +6,7 @@ This section provides an overview of the system and its distinct parts, helping 
 
 ## System Actors
 
-Actors are the individual components or entities within your system that interact to provide its functionality.
+[Actors](guidance/background/threat-modeling/actors.md) are the individual components or entities within your system that interact to provide its functionality.
 
 In this situation, Actors are not equivalent to Threat Actors. Instead of looking at the human element (actors using different parts of the system), this is looking at functional elements that are able to act upon each other.
 
@@ -19,6 +19,8 @@ For each actor, describe:
 - **The isolation mechanisms in place** (e.g., separate authentication domains, network segmentation).
   
 Capturing all of these mechanisms is crucial, as these can prevent an attacker from moving laterally after a compromise.
+
+[+ Read More About Actors](../background/threat-modeling/actors.md)
 
 ## System Actions
 
@@ -38,6 +40,8 @@ token to the file server, which, after confirming its validity, returns the file
 If you have a more complex system, you may want to create a chart using a free tool such as
 [draw.io](draw.io) or using GitHub flavored markdown you can make a diagram using a
 [mermaid chart](https://github.blog/developer-skills/github/include-diagrams-markdown-files-mermaid/).
+
+[+ Read More About Actions](guidance/background/threat-modeling/actions.md)
 
 ## Security Functions and Features
 

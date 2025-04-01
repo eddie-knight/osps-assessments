@@ -47,4 +47,4 @@ Provide links to the project's security-related documentation. At a minimum, inc
 
 As usual, formatting is less important than clear communication with your stakeholders. If this is better broken into a table or sub-sections, feel free to make that decision for your use case.
 
-**[> Next Up: Overview](./overview.md)**
+**[> Next Up: Project Overview](./project-overview.md)**

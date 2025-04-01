@@ -26,8 +26,8 @@ together, this document and the joint-assessment serve as a cornerstone for if a
   - [Security Goals](#security-goals)
   - [Security Non-goals](#security-non-goals)
 - [System Design](#system-design)
-  - [Actors](#actors)
-  - [Actions](#actions)
+  - [System Actors](#system-actors)
+  - [System Actions](#system-actions)
   - [Security functions and features](#security-functions-and-features)
 - [Development & Support](#development--support)
 - [Appendix](#appendix)
@@ -71,7 +71,7 @@ the servers)
 
 This section provides an overview of the system and it's distinct parts.
 
-### Actors
+### System Actors
 
 These are the individual parts of your system that interact to provide the
 desired functionality.  Actors only need to be separate, if they are isolated
@@ -82,7 +82,7 @@ between the database and front-end is not relevant.
 The means by which actors are isolated should also be described, as this is often
 what prevents an attacker from moving laterally after a compromise.
 
-### Actions
+### System Actions
 
 These are the steps that a project performs in order to provide some service
 or functionality.  These steps are performed by different actors in the system.
